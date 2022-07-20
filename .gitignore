@@ -1,2 +1,7 @@
 node_modules
 .DS_Store
+.vscode
+Rummikub_07_04_22/Rummikub-env
+Rummikub_07_04_22/__pycache__
+Rummikub_07_04_22/.pytest_cache
+*.pyc
