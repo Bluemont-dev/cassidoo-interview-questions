@@ -9,7 +9,7 @@ From Cassidoo's newsletter:
 > The game Rummikub has 106 tiles: 8 sets numbered 1-13, colored red, blue, black, and yellow, and two (2) “wildcard” tiles.
 Write two functions: one that creates a new player’s tray of 14 tiles (repetitions allowed), and one that returns the valid sets from a given tray. A set can be either 3 or 4 tiles of the same number (but all different colors), or it can be a “run” (which is three or more consecutive numbers all in the same color).
 
-To simplify the code, I changed the requirement slightly, to return the best sets. For example, if you could return a group of three 7's or a group of four 7's, you would return the group of 4 because it has a higher value in the game. Same for runs -- my version returns the longest run that can be built for each color. If two runs of equal length can be made from the same color, my solution returns the one with the higher tile values.
+To simplify the code, I changed the requirement slightly, to return the *best* sets. For example, if you could return a group of three 7's or a group of four 7's, you would return the group of 4 because it has a higher value in the game. Same for runs -- my version returns the longest run that can be built for each color. If two runs of equal length can be made from the same color, my solution returns the one with the higher tile values.
 
 ## Unit testing
 
