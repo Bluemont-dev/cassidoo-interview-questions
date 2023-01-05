@@ -4,4 +4,7 @@ node_modules
 Rummikub-env
 Rummikub_07_04_22/__pycache__
 Rummikub_07_04_22/.pytest_cache
+maxSubarray-env
+maxSubarray_01-02-23/__pycache__
+maxSubarray_01-02-23/.pytest_cache
 *.pyc
